@@ -150,6 +150,34 @@ a {
   line-height: 1.8;
 }
 
+.hero-sub p + p {
+  margin-top: 1rem;
+}
+
+.hero-sub h2 {
+  margin: 1rem 0;
+  color: #f0d58f;
+  font-family: var(--font-head);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-sub .small-caps {
+  font-variant: small-caps;
+}
+
+.hero-sub strong {
+  color: #f0d58f;
+  font-weight: 700;
+}
+
+.hero-sub mark {
+  padding: 0.08em 0.25em;
+  color: var(--navy);
+  background: var(--gold);
+}
+
 .events {
   padding: 0.4rem 0 5.5rem;
 }
@@ -293,6 +321,10 @@ a {
 
   .hero h1 {
     font-size: 2.8rem;
+  }
+
+  .hero-sub h2 {
+    font-size: 1.7rem;
   }
 
   .hero-sub {
