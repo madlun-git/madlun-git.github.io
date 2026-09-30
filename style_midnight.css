@@ -146,6 +146,10 @@ a {
   line-height: 1.05;
 }
 
+.hero h1.hero-secondary-title {
+  font-size: 2.67rem;
+}
+
 .hero h1 span {
   color: #e3b95d;
   font-style: italic;
@@ -269,6 +273,13 @@ a {
   line-height: 1.55;
 }
 
+.event-description a:hover,
+.event-description a:focus-visible {
+  color: #f0d58f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .site-footer {
   margin-top: auto;
   border-top: 1px solid var(--gold-line);
@@ -321,6 +332,10 @@ a {
 
   .hero h1 {
     font-size: 2.8rem;
+  }
+
+  .hero h1.hero-secondary-title {
+    font-size: 1.87rem;
   }
 
   .hero-sub {
