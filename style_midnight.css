@@ -154,15 +154,6 @@ a {
   margin-top: 1rem;
 }
 
-.hero-sub h2 {
-  margin: 1rem 0;
-  color: #f0d58f;
-  font-family: var(--font-head);
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
 .hero-sub .small-caps {
   font-variant: small-caps;
 }
@@ -321,10 +312,6 @@ a {
 
   .hero h1 {
     font-size: 2.8rem;
-  }
-
-  .hero-sub h2 {
-    font-size: 1.7rem;
   }
 
   .hero-sub {
